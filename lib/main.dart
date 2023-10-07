@@ -39,6 +39,12 @@ class MyHomePage extends StatelessWidget {
         children: [
           Text('Alive inside a paradise of illusion(s)'),
           Text(appState.current.asLowerCase),
+          ElevatedButton(
+            onPressed: () {
+              print('User request!');
+            },
+            child: Text('i+1'),
+          )
         ],
       ),
     );
