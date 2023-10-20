@@ -25,9 +25,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// class MyAppState extends ChangeNotifier {
-//   var current = WordPair.random();
-// }
+class MyAppState extends ChangeNotifier {
+  var current = WordPair.random();
+}
 
 // class MyHomePage extends StatelessWidget {
 //   @override
