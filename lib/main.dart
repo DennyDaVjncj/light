@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'Namer App',
+        title: 'Bienvenue to da Vjncj Code',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
@@ -29,24 +29,18 @@ class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
 }
 
-// class MyHomePage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     var appState = context.watch<MyAppState>();
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    var appState = context.watch<MyAppState>();
 
-//     return Scaffold(
-//       body: Column(
-//         children: [
-//           Text('Alive inside a paradise of illusion(s)'),
-//           Text(appState.current.asLowerCase),
-//           ElevatedButton(
-//             onPressed: () {
-//               print('User request!');
-//             },
-//             child: Text('i+1'),
-//           )
-//         ],
-//       ),
-//     );
-//   }
-// }
+    return Scaffold(
+      body: Column(
+        children: [
+          Text('Alive inside a paradise of illusion(s)'),
+          Text(appState.current.asLowerCase),
+        ],
+      ),
+    );
+  }
+}
