@@ -37,10 +37,16 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('Alive inside a paradise of illusion(s)'),
+          Text('Play is the highest form of research!'),
           Text(appState.current.asLowerCase),
+
+          ElevatedButton(
+            onPressed:(){
+              print('bomb detonated')
+            },
+            child:Text('Activate processor'),
+          )
         ],
       ),
     );
   }
-}
