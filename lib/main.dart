@@ -39,14 +39,14 @@ class MyHomePage extends StatelessWidget {
         children: [
           Text('Play is the highest form of research!'),
           Text(appState.current.asLowerCase),
-
           ElevatedButton(
-            onPressed:(){
+            onPressed: () {
               print('bomb detonated');
             },
-            child:Text('Activate processor'),
+            child: Text('Activate processor'),
           )
         ],
       ),
     );
   }
+}
