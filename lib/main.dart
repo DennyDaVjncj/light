@@ -46,7 +46,7 @@ class MyHomePage extends StatelessWidget {
           Text(appState.current.asLowerCase),
           ElevatedButton(
             onPressed: () {
-              print('bomb detonated');
+              appState.getNext();
             },
             child: Text('Activate processor'),
           )
