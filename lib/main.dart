@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
 
           ElevatedButton(
             onPressed:(){
-              print('bomb detonated')
+              print('bomb detonated');
             },
             child:Text('Activate processor'),
           )
