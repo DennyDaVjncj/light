@@ -95,7 +95,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('le da Vjncj Code'),
+          Text('denny da vjncj'),
           Text(appState.current.asLowerCase),
         ],
       ),
