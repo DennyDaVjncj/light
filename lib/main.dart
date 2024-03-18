@@ -75,7 +75,7 @@ class MyApp extends StatelessWidget {
         title: 'light',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepOrange),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
         ),
         home: MyHomePage(),
       ),
