@@ -95,8 +95,14 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('denny da vjncj'),
+          Text('le da vjncj code(s)'),
           Text(appState.current.asLowerCase),
+          ElevatedButton(
+            onPressed: () {
+              print('user action detected');
+            },
+            child: Text('proxima'),
+          )
         ],
       ),
     );
