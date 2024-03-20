@@ -1,4 +1,4 @@
-package com.example.light
+package com.example.the_pos_system
 
 import io.flutter.embedding.android.FlutterActivity
 
