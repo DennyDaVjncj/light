@@ -95,7 +95,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          Text('le da vjncj code(s)'),
+          Text('the POS system'),
           Text(appState.current.asLowerCase),
           ElevatedButton(
             onPressed: () {
