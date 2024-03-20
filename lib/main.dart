@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       child: MaterialApp(
-        title: 'light',
+        title: 'the POS system',
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
