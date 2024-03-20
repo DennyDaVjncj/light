@@ -103,7 +103,7 @@ class MyHomePage extends StatelessWidget {
           Text(appState.ogContent.asLowerCase),
           ElevatedButton(
             onPressed: () {
-              print('user action detected');
+              appState.getNext();
             },
             child: Text('proxima'),
           )
