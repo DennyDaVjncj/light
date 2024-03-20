@@ -84,9 +84,9 @@ class MyApp extends StatelessWidget {
 }
 
 class MyAppState extends ChangeNotifier {
-  var current = WordPair.random();
+  var ogContent = WordPair.random();
   void getNext() {
-    current = WordPair.random();
+    ogContent = WordPair.random();
     notifyListeners();
   }
 }
