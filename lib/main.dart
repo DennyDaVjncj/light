@@ -84,9 +84,9 @@ class MyApp extends StatelessWidget {
 }
 
 class MyAppState extends ChangeNotifier {
-  var current = WordPair.random();
+  var ogContent = WordPair.random();
   void getNext() {
-    current = WordPair.random();
+    ogContent = WordPair.random();
     notifyListeners();
   }
 }
@@ -100,10 +100,10 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         children: [
           Text('the POS system'),
-          Text(appState.current.asLowerCase),
+          Text(appState.ogContent.asLowerCase),
           ElevatedButton(
             onPressed: () {
-              print('user action detected');
+              appState.getNext();
             },
             child: Text('proxima'),
           )
