@@ -100,7 +100,7 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         children: [
           Text('the POS system'),
-          Text(appState.current.asLowerCase),
+          Text(appState.ogContent.asLowerCase),
           ElevatedButton(
             onPressed: () {
               print('user action detected');
