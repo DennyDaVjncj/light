@@ -105,7 +105,7 @@ class MyHomePage extends StatelessWidget {
             onPressed: () {
               appState.getNext();
             },
-            child: Text('proxima'),
+            child: Text('Click here: new term'),
           )
         ],
       ),
